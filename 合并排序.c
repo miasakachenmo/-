@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-int *mar(int *p1,int lenth1,int *p2,int lenth2)
+int *mar(int *p1,int lenth1,int *p2,int lenth2)//实现合并排序 输入两个数组与两个数组长度,返回一个排好序的数组
 {
     if(lenth1==0)
         return p2;
@@ -23,9 +23,10 @@ int *mar(int *p1,int lenth1,int *p2,int lenth2)
         p[i++]=p2[i2++];
     return p;
 }
-int* divide(int* p,int lenth)                   //divide the numbers
+int* divide(int* p,int lenth)        //拆分数组 lenth:数组长度 p:数组头指针
 {
     int *p1,*p2,lenth1,lenth2,i=0,j=0;
+
     if(lenth==1)
         return p;
     if(lenth%2==0)
@@ -43,7 +44,7 @@ int* divide(int* p,int lenth)                   //divide the numbers
         p1[i++]=p[j++];
     }
     i=0;
-    while(i<lenth2)     //1,5,7,8,4,2,3,2,5,7,8,3,6
+    while(i<lenth2)
     {
         p2[i++]=p[j++];
     }
