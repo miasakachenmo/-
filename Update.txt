@@ -1,3 +1,1 @@
-5 http://disk.karelia.pro/4wuzTHr/HandSchool_v1.4.9.0_debug3.apk?attachment 加入一卡通相关功能 
-加入课程表桌面小部件 
-bug修复以及优化
+6 http://disk.karelia.pro/3AJq6as/HandSchool_5fix6.apk 修复选择吉林大学崩溃的bug 
