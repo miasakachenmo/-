@@ -1,4 +1,5 @@
 7 http://disk.karelia.pro/34rB1wb/HandSchool_v1.5.11.0_debug3.apk 添加选课功能
 添加图书馆功能
 bug修复
-ps:网络卡的可以参考设置里的说明进行设置
+ps1:网络卡的可以参考设置里的说明进行设置
+ps2:如果更新闪退的话,请打开本APP文件读写权限再进行尝试
